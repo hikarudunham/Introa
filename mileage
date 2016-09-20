@@ -1,0 +1,18 @@
+<script>
+    var xDistance1 = prompt("Enter starting distance")
+    var xDistance2 = prompt("Enter end distance") 
+    var numberofGallons = prompt("Enter number of gallons") 
+    
+function mileage2() {
+        
+        var xDistance = xDistance2 - xDistance1;
+        var mileage = xDistance/ numberofGallons;
+        prompt("Your car has a gas mileage of: " + mileage); 
+        
+    };
+        
+        mileage2()
+        
+        
+ </script> 
+  
